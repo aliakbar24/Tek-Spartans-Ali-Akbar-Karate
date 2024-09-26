@@ -25,4 +25,4 @@ Feature: Testing profile section
       | username          | password       | accountType |
       | supervisor        | tek_supervisor | CSR         |
       | operator_readonly | Tek4u2024      | CSR         |
-      | mohammad25361     | mohammad25361  | CUSTOMER    |
+      | akbar             | akbar          | CUSTOMER    |

@@ -7,18 +7,18 @@
     Scenario: Create new account
       Given url BASE_URL
       Given path "/api/accounts/add-primary-account"
-      * def email = "mohammad_instructor2517@tekschool.us"
+      * def email = "ali.akbar@tekschool.us"
       Given request
         """
         {
           "email": "#(email)",
-          "firstName": "Mohammad",
-          "lastName": "Shokriyan",
+          "firstName": "Ali",
+          "lastName": "Akbar",
           "title": "Mr.",
           "gender": "MALE",
           "maritalStatus": "Single",
-          "employmentStatus": "Software Developer",
-          "dateOfBirth": "1985-02-27"
+          "employmentStatus": "Student",
+          "dateOfBirth": "2001-10-15"
         }
         """
       When method post
